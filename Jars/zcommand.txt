@@ -1,3 +1,6 @@
 D:
 cd HIAST\FIY\FS\Distributed Systems\Lab\6\ZooKeeper-AutoHealer\Jars
 java -Dorg.slf4j.simpleLogger.defaultLogLevel=off -jar AutoHealer.jar 10 ".\Worker.jar"
+
+
+java -Dorg.slf4j.simpleLogger.defaultLogLevel=off -jar AutoHealer.jar 10 ".Jars\Worker.jar"

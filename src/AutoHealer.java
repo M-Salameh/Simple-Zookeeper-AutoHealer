@@ -86,12 +86,12 @@ public class AutoHealer implements Watcher
         private void launchWorkersIfNecessary() throws KeeperException, InterruptedException
         {
             List<String> workerZnodes = zooKeeper.getChildren(AUTOHEALER_ZNODES_PATH, this);
-            AtomicInteger existingWorkersNumber = new AtomicInteger(workerZnodes.size());
-            if (existingWorkersNumber.get() > 0)
+            int existingWorkersNumber = workerZnodes.size();
+            if (existingWorkersNumber > 0)
             {
-                System.out.println("Last Child Znode Now is : " + workerZnodes.get(existingWorkersNumber.get() -1));
+                System.out.println("Last Child Znode Now is : " + workerZnodes.get(existingWorkersNumber -1));
             }
-            while (existingWorkersNumber.get() < numberOfWorkers )
+            /*while (existingWorkersNumber.get() < numberOfWorkers )
             {
                 Thread thread = new Thread(()->
                 {
@@ -103,23 +103,25 @@ public class AutoHealer implements Watcher
                     }
                 });
                 thread.start();
-            }
-            /*while (existingWorkersNumber < numberOfWorkers )
+            }*/
+            while (existingWorkersNumber < numberOfWorkers )
             {
-                try {
+                try
+                {
+                    System.out.println("Increasing Workers !!");
                     startNewWorker();
                     existingWorkersNumber++;
                 } catch (IOException e) {
                     //throw new RuntimeException(e);
                 }
-            }*/
-            while (existingWorkersNumber.get() > numberOfWorkers)
+            }
+            while (existingWorkersNumber > numberOfWorkers)
             {
                 String worker = workerZnodes.get(0);
                 String workerPath = AUTOHEALER_ZNODES_PATH + "/" + worker;
                 System.out.println("delete node: " + AUTOHEALER_ZNODES_PATH + "/" + worker);
                 zooKeeper.delete(workerPath, -1);
-                existingWorkersNumber.getAndDecrement();
+                existingWorkersNumber--;
                 workerZnodes.remove(0);
             }
         }
@@ -128,7 +130,8 @@ public class AutoHealer implements Watcher
          * Helper method to start a single worker
          * @throws IOException
          */
-        private void startNewWorker() throws IOException {
+        private void startNewWorker() throws IOException
+        {
             File file = new File(pathToProgram);
             String command = "java -Dorg.slf4j.simpleLogger.defaultLogLevel=off -jar " + file.getName();
             System.out.println(String.format("Launching worker instance : %s ", command));

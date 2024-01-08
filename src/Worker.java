@@ -27,9 +27,8 @@ public class Worker
 
     public void work() throws KeeperException, InterruptedException {
         addChildZnode();
-
-
-        while (true) {
+        while (true)
+        {
             System.out.println(myName + " is Working...");
             LockSupport.parkNanos(1000L);
             if (random.nextFloat() < CHANCE_TO_FAIL) {
@@ -44,7 +43,6 @@ public class Worker
                 new byte[]{},
                 ZooDefs.Ids.OPEN_ACL_UNSAFE,
                 CreateMode.EPHEMERAL_SEQUENTIAL);
-
     }
 }
 

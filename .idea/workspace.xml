@@ -3,27 +3,24 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="AutoHealer:jar" />
-      <artifact name="Worker:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4a0b476-92e2-4923-ba69-0da7a4ae9e1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AutoHealer_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Worker_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jars/AutoHealer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jars/Worker.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jars/zcommand.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZooKeeper-AutoHealer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutoHealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutoHealerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoHealer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jars/AutoHealer-Thread.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Worker.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jars/AutoHealer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Jars/AutoHealer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jars/zcommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Jars/zcommand.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Read Me.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AutoHealer_jar/ZooKeeper-AutoHealer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AutoHealer_jar/ZooKeeper-AutoHealer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooKeeper-AutoHealer/AutoHealer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooKeeper-AutoHealer/AutoHealer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooKeeper-AutoHealer/AutoHealerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooKeeper-AutoHealer/AutoHealerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooKeeper-AutoHealer/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooKeeper-AutoHealer/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutoHealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutoHealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutoHealerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutoHealerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

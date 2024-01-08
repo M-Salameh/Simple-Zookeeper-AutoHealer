@@ -13,6 +13,7 @@ public class AutoHealerApplication
         int numberOfWorkers = Integer.parseInt(args[0]);
         String pathToWorkerProgram = args[1];
         AutoHealer autohealer = new AutoHealer(numberOfWorkers, pathToWorkerProgram);
+        //AutoHealer autohealer = new AutoHealer(10, ".\\Worker.jar");
         autohealer.connectToZookeeper();
         autohealer.startWatchingWorkers();
         autohealer.run();
