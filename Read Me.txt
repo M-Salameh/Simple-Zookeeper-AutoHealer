@@ -1,0 +1,2 @@
+Open "Jars" Folder, inside there are two jars and command.txt 
+command.txt has the commands to run the jars.

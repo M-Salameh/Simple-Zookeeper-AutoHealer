@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Worker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Worker_jar</output-path>
+    <root id="archive" name="ZooKeeper-AutoHealer.jar">
+      <element id="module-output" name="ZooKeeper-AutoHealer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/zookeeper-3.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/commons-io-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/logback-core-1.2.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/zookeeper-jute-3.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/logback-classic-1.2.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-codec-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-buffer-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-common-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-handler-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/audience-annotations-0.12.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-resolver-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-transport-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-classes-2.0.61.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-transport-classes-epoll-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-boringssl-static-2.0.61.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-transport-native-unix-common-4.1.94.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-transport-native-epoll-4.1.94.Final-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../zookeeper-3.9.1-dependency/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
